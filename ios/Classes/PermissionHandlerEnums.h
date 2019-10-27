@@ -11,7 +11,7 @@ typedef NS_ENUM(int, PermissionGroup) {
     // PermissionGroupContacts,
     // PermissionGroupLocation,
     // PermissionGroupLocationAlways,
-    PermissionGroupLocationWhenInUse,
+    PermissionGroupLocationWhenInUse = 0,
     // PermissionGroupMediaLibrary,
     // PermissionGroupMicrophone,
     // PermissionGroupPhone,
