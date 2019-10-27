@@ -81,8 +81,8 @@
             // return [AudioVideoPermissionStrategy new];
             // case PermissionGroupContacts:
             // return [ContactPermissionStrategy new];
-            case PermissionGroupLocation:
-            case PermissionGroupLocationAlways:
+            // case PermissionGroupLocation:
+            // case PermissionGroupLocationAlways:
             case PermissionGroupLocationWhenInUse:
             return [[LocationPermissionStrategy alloc] initWithLocationManager];
             // case PermissionGroupMediaLibrary:
