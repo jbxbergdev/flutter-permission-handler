@@ -107,7 +107,7 @@ class PermissionGroup {
 
   /// Android: Fine and Coarse Location
   /// iOS: CoreLocation - WhenInUse
-  static const PermissionGroup locationWhenInUse = PermissionGroup._(5);
+  static const PermissionGroup locationWhenInUse = PermissionGroup._(0);
 
 //  /// Android: None
 //  /// iOS: MPMediaLibrary
