@@ -44,8 +44,8 @@ public class PermissionHandlerPlugin implements MethodCallHandler {
   private static final int PERMISSION_CODE_IGNORE_BATTERY_OPTIMIZATIONS = 5672353;
 
   //PERMISSION_GROUP
-  private static final int PERMISSION_GROUP_LOCATION = 3;
-  private static final int PERMISSION_GROUP_LOCATION_ALWAYS = 4;
+  private static final int PERMISSION_GROUP_LOCATION = 1;
+  private static final int PERMISSION_GROUP_LOCATION_ALWAYS = 2;
   private static final int PERMISSION_GROUP_LOCATION_WHEN_IN_USE = 0;
   private static final int PERMISSION_GROUP_UNKNOWN = 16;
 

@@ -95,15 +95,15 @@ class PermissionGroup {
 //  /// iOS: AddressBook
 //  static const PermissionGroup contacts = PermissionGroup._(2);
 //
-//  /// Android: Fine and Coarse Location
-//  /// iOS: CoreLocation (Always and WhenInUse)
-//  static const PermissionGroup location = PermissionGroup._(3);
-//
-//  /// Android:
-//  ///   When running on Android < Q: Fine and Coarse Location
-//  ///   When running on Android Q and above: Background Location Permission
-//  /// iOS: CoreLocation - Always
-//  static const PermissionGroup locationAlways = PermissionGroup._(4);
+  /// Android: Fine and Coarse Location
+  /// iOS: CoreLocation (Always and WhenInUse)
+  static const PermissionGroup location = PermissionGroup._(1);
+
+  /// Android:
+  ///   When running on Android < Q: Fine and Coarse Location
+  ///   When running on Android Q and above: Background Location Permission
+  /// iOS: CoreLocation - Always
+  static const PermissionGroup locationAlways = PermissionGroup._(2);
 
   /// Android: Fine and Coarse Location
   /// iOS: CoreLocation - WhenInUse
@@ -156,9 +156,9 @@ class PermissionGroup {
 //    calendar,
 //    camera,
 //    contacts,
-//    location,
-//    locationAlways,
     locationWhenInUse,
+    location,
+    locationAlways,
 //    mediaLibrary,
 //    microphone,
 //    phone,
