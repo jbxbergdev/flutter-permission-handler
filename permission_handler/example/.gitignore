@@ -1,6 +1,5 @@
 # Miscellaneous
 *.class
-*.lock
 *.log
 *.pyc
 *.swp
@@ -8,9 +7,7 @@
 .atom/
 .buildlog/
 .history
-.project
 .svn/
-bin/
 
 # IntelliJ related
 *.iml
@@ -18,24 +15,8 @@ bin/
 *.iws
 .idea/
 
-# Android Studio related
-android/.classpath
-android/.settings/
-
 # Visual Studio Code related
 .vscode/
-
-# Flutter repo-specific
-/bin/cache/
-/bin/mingit/
-/dev/benchmarks/mega_gallery/
-/dev/bots/.recipe_deps
-/dev/bots/android_tools/
-/dev/docs/doc/
-/dev/docs/lib/
-/dev/docs/pubspec.yaml
-/packages/flutter/coverage/
-version
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -46,11 +27,6 @@ version
 .pub-cache/
 .pub/
 build/
-flutter_*.png
-linked_*.ds
-unlinked.ds
-unlinked_spec.ds
-flutter_export_environment.sh
 
 # Android related
 **/android/**/gradle-wrapper.jar
